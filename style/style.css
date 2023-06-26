@@ -1,4 +1,7 @@
-
+body{
+    height: 100vh;
+    overflow: hidden;
+}
 .btn-w{
     background-color: white;
 }
@@ -10,4 +13,63 @@
 }
 .my-btn{
     border-color: gray;
+}
+
+main{
+    height: 100vh;
+    overflow: scroll;
+    background-color: rgb(248, 249, 250) ;
+}
+.withe > * {
+    color: white !important;
+}
+.no-wrap{
+    flex-wrap: nowrap;
+}
+.sub-title{
+    width: min-content;
+}
+.my-badge{
+    width: min-content;
+    height: min-content;
+    background-color:  rgb(20, 89, 185) !important;
+}
+.box-add-person{
+    gap: .5rem;
+    align-items: center;
+}
+.add-student-text{
+    width: min-content;
+    height: min-content;
+    white-space: nowrap;
+}
+.my-btn-add{
+    width: min-content;
+    height: min-content;
+
+}
+.mega-container{
+    display: flex;
+    flex-direction: column;
+}
+.my-container-laterale{
+    display: flex;
+    width: calc((100% / 9));
+    flex-direction: column;
+    background-color: black;
+}
+.nav-link, .nav-link{
+    color: white;
+} 
+.nav-link:focus, .nav-link:hover {
+    color: white;
+}
+.prova{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    justify-content: space-between;
+}
+.my-nav-laterale{
+    height: calc((100% - 77px));
 }
