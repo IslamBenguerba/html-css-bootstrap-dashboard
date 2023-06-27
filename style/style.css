@@ -1,3 +1,8 @@
+:root{
+    --bs-offcanvas-width: 600px
+}
+
+
 body{
     height: 100vh;
     overflow: hidden;
@@ -6,7 +11,7 @@ body{
     background-color: white;
 }
 .img-nav{
-    display: none;
+    height: 50px;
 }
 .img-table{
     width: 50px;
@@ -81,8 +86,9 @@ main{
 .my-nav-laterale{
     height: calc((100% - 58px));
 }
-.prima-colonna{
-    columns: 8;
+
+.offcanvas.offcanvas-end{
+    width: 600px;
 }
 
 .my-link-lat{
@@ -93,3 +99,7 @@ main{
     background-color: white;
 }
 
+.box-check{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
