@@ -22,6 +22,7 @@ main{
 }
 .withe > * {
     color: white !important;
+    background-color: white;
 }
 .no-wrap{
     flex-wrap: nowrap;
@@ -48,6 +49,13 @@ main{
     height: min-content;
 
 }
+.my-btn-app{
+    width: min-content;
+    height: min-content;
+}
+.my-btn-app:focus ~ span.my-badge{
+    display: inline;
+}
 .mega-container{
     display: flex;
     flex-direction: column;
@@ -71,5 +79,17 @@ main{
     justify-content: space-between;
 }
 .my-nav-laterale{
-    height: calc((100% - 77px));
+    height: calc((100% - 58px));
 }
+.prima-colonna{
+    columns: 8;
+}
+
+.my-link-lat{
+    border-radius: 0;
+}
+.my-link-lat:hover {
+    color: black;
+    background-color: white;
+}
+
