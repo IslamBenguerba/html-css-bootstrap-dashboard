@@ -29,6 +29,9 @@ main{
     color: white !important;
     background-color: white;
 }
+.text-white{
+    color: white;
+}
 .no-wrap{
     flex-wrap: nowrap;
 }
@@ -71,11 +74,27 @@ main{
     flex-direction: column;
     background-color: black;
 }
+.brand{margin-left: -10px;}
+@media screen and (min-width:768px) {
+    .brand{
+        margin-left: -15px;
+    }
+}
 .nav-link, .nav-link{
+
     color: white;
 } 
 .nav-link:focus, .nav-link:hover {
     color: white;
+}
+.nav-pills .nav-link {
+    margin-left: -20px;
+    border-radius: 0;
+
+}
+.nav-pills .nav-link:focus{
+
+    border-left: 2px solid white;
 }
 .prova{
     display: flex;
